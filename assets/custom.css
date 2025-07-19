@@ -1,0 +1,37 @@
+/* applied in dark color-scheme */
+ :root, body {
+     /* --bs-body-font-size: 1rem;*/
+     font-size: 1rem;
+ }
+
+.badge{font-size:.9rem;}
+
+
+.flex-align-items-center {
+    align-items: center;
+}
+
+ .accordion-button {
+font-weight:bold;
+font-size:1rem;
+}
+
+
+
+
+.inline-author-link {text-decoration:underline !important}
+
+[data-bs-theme=dark] .badge.bg-warning, [data-bs-theme=dark] .badge.bg-secondary,
+ [data-bs-theme=light] .badge.bg-warning {
+    color:rgb(20, 23, 33);
+}
+
+[data-bs-theme=light] .badge.bg-secondary{
+    color:rgb(255,255,255);
+}
+
+[data-bs-theme=dark] .card-text {
+    color:rgba(255,255,255,0.8)
+}
+
+
